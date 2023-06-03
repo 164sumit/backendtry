@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"cd frontend && npm i && npm run build\" \"nodemon server.js\"",
-    "dev": "vite",
-    "backend": "nodemon server.js"
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sumit",
   "license": "ISC",
